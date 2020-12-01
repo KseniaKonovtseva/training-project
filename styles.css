@@ -1,0 +1,403 @@
+@font-face {
+	font-family: truenoBd;
+	src: url(fonts/TruenoBd.otf);
+}
+
+@font-face {
+	font-family: truenoLt;
+	src: url(fonts/truenoLt.otf);
+}
+
+@font-face {
+	font-family: truenoBlk;
+	src: url(fonts/truenoBlk.otf);
+}
+
+body {
+	font-family: trueno;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+div.main {
+	background-color: #472424;
+	font-size: 13px;
+}
+
+div.main a {
+	color: #ffffff;
+	line-height: 26px;
+}
+
+div.main a:hover,
+div.main a:active {
+	background-color: #ff7373;
+}
+
+span.items {
+	color: #dcc5b8;
+}
+
+li.cart a:before {
+	content: url("images/cart.png");
+	padding-right: 10px;
+}
+
+li.attention {
+	background-color: #ff7373;
+}
+
+.main-menu {
+	background-color: #623232;
+}
+
+.main-menu a {
+	color: #ffffff;
+	line-height: 26px;
+	font-size: 16px;
+	z-index: 10;
+}
+
+.main-menu li.active a,
+.main-menu li a:hover,
+.main-menu li a:active {
+	color: #ff7373;
+	border-bottom: #ff7373 2px solid;
+	background-color: #623232;
+}
+
+header {
+	position: relative;
+}
+
+.offer img {
+	position: absolute;
+	left: -130px;
+	top: -80px;
+}
+
+.offer {
+	background-color: #f0efee;
+}
+
+.offer .variants span {
+	display: inline-block;
+	color: #623232;
+	font-size: 30px;
+}
+
+.offer .variants h2 {
+	color: #623232;
+	font-size: 70px;
+	font-weight: 800;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.offer .variants h3 {
+	color: #ff7373;
+	font-weight: 800;
+	font-size: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.offer .variants p {
+	color: #8a8784;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.offer .variants a {
+	display: inline-block;
+	width: 257px;
+	height: 50px;
+	background-color: #ff7373;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 26px;
+	padding: 12px 45px;
+	margin-top: 30px;
+}
+
+.offer .variants a:hover,
+.offer .variants a:active {
+	text-decoration: none;
+	color: #623232;
+}
+
+.variants {
+	margin-top: 145px;
+	margin-bottom: 140px;
+	padding-left: 100px;
+}
+
+.brands {
+	text-align: center;
+}
+
+.brands a {
+	display: inline-block;
+	width: 120px;
+	height: 68px;
+}
+
+.brands a.adidas {
+	background: url(images/brands.png) -129px -10px;
+}
+
+.brands a.nike {
+	background: url(images/brands.png) -369px 0;
+}
+
+.brands a.puma {
+	background: url(images/brands.png) -629px -7px;
+}
+
+.brands a.asics {
+	background: url(images/brands.png) -10px 5px;
+}
+
+.brands a.NB {
+	background: url(images/brands.png) -489px 0;
+}
+
+.brands a.fila {
+	background: url(images/brands.png) -249px 10px;
+}
+
+.brands {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonials {
+	background-color: #472424;
+	background-image: url("images/glenn-carstens-peters.png");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.testimonials h4 {
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.testimonials .transparent {
+	opacity: 0.5;
+}
+
+.testimonials .triangle {
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 15px solid #ffffff;
+	opacity: 0.1;
+	margin: 0 auto;
+}
+
+.testimonials .lorem p {
+	color: #ffffff;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 65px;
+	margin-bottom: 100px;
+}
+
+.testimonials .row {
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+div.help {
+	color: #ffffff;
+	background-color: #ff7373;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.help h4 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.help a {
+	display: inline-block;
+	color: #ffffff;
+	width: 213px;
+	height: 50px;
+	background-color: #623232;
+	padding: 10px 30px;
+}
+
+.help a:hover {
+	color: #ff7373;
+	text-decoration: none;
+}
+
+.news {
+	text-align: center;
+}
+
+.news h3 {
+	color: #623232;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.news img {
+	position: relative;
+	width: 100%;
+	border: 1px solid #e0dfde;
+	background-color: #472424;
+}
+
+.news h4 {
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	width: 70%;
+	font-weight: bold;
+	line-height: 26px;
+	text-align: left;
+}
+
+.news span {
+	display: inline-block;
+	font-weight: normal;
+}
+
+.news span.comments {
+	color: #ff7373;
+}
+
+.news span.comments:before {
+	content: url("images/comment.png");
+	padding-right: 5px;
+}
+
+.news {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+footer {
+	background-color: #623232;
+}
+
+.centered {
+	text-align: center;
+}
+
+.usp {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-bottom: 45px;
+	margin-top: 50px;
+}
+
+.usp img {
+	margin-bottom: 20px;
+}
+
+hr {
+	background-color: #ffffff;
+	opacity: 0.15;
+}
+
+.contacts img {
+	padding: 15px;
+	background-color: #ff7373;
+}
+
+footer h4 {
+	color: #ff7373;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	line-height: 36px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+footer a:hover,
+footer a:active {
+	text-decoration: none;
+	color: #ff7373;
+}
+
+footer .sum {
+	margin-bottom: 70px;
+	margin-top: 60px;
+}
+
+footer .rights {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+footer .social > a {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+a .tw {
+	width: 27px;
+	height: 27px;
+	background: url("images/social-sprites.png") -43px -10px;
+	margin-top: 3px;
+}
+
+a .fb {
+	width: 27px;
+	height: 27px;
+	background: url("images/social-sprites.png") -10px -10px;
+	margin-right: -10px;
+}
+
+a .pn {
+	width: 27px;
+	height: 27px;
+	background: url("images/social-sprites.png") -89px -10px;
+}
+
+a .yt {
+	width: 27px;
+	height: 27px;
+	background: url("images/social-sprites.png") -136px -10px;
+	margin-top: 3px;
+}
+
+footer .links {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
